@@ -68,6 +68,7 @@ A comprehensive repository to learn JavaScript from basics to advanced concepts 
 - [ ] **Social Media Dashboard** - Data visualization
 
 ## 📁 Repository Structure
+```
 javascript-learning/
 │
 ├── 📂 01-fundamentals/
@@ -101,7 +102,7 @@ javascript-learning/
 └── useful-links.md
 
 text
-
+```
 ## 🎯 Learning Tips
 
 ### 1. **Consistency Over Intensity**
