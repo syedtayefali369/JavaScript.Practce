@@ -1,4 +1,6 @@
 # JavaScript Learning Journey 🚀
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/dda859cb-7c98-4e8b-b4a6-2cfab42c2fa0" />
+
 
 A comprehensive repository to learn JavaScript from basics to advanced concepts with practical projects.
 
