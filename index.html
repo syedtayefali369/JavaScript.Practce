@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bank Account Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏦 Smart Bank Account</h1>
+            <p>Manage your finances efficiently using JavaScript Closures</p>
+        </header>
+
+        <div class="account-section">
+            <div class="account-info">
+                <h2>Account Details</h2>
+                <div class="balance-card">
+                    <span class="label">Current Balance:</span>
+                    <span id="balance" class="amount">₹0</span>
+                </div>
+                <div class="transaction-count">
+                    <span>Total Transactions:</span>
+                    <span id="transactionCount">0</span>
+                </div>
+                <div id="message"></div>
+            </div>
+
+            <div class="controls">
+                <h2>Quick Actions</h2>
+                <div class="button-group">
+                    <button onclick="account.deposit(1000)" class="btn deposit">
+                        Deposit ₹1000
+                    </button>
+                    <button onclick="account.withdraw(500)" class="btn withdraw">
+                        Withdraw ₹500
+                    </button>
+                    <button onclick="account.resetAccount()" class="btn reset">
+                        Reset Account
+                    </button>
+                </div>
+
+                <div class="custom-amount">
+                    <h3>Custom Amount</h3>
+                    <input type="number" id="customAmount" placeholder="Enter amount" min="0">
+                    <div class="custom-buttons">
+                        <button onclick="handleCustomDeposit()" class="btn deposit">
+                            Custom Deposit
+                        </button>
+                        <button onclick="handleCustomWithdraw()" class="btn withdraw">
+                            Custom Withdraw
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="transaction-history">
+                <h2>Transaction History</h2>
+                <div id="transactionList" class="transaction-list">
+                    <p class="no-transactions">No transactions yet</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3>Total Deposits</h3>
+                <span id="totalDeposits">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Total Withdrawals</h3>
+                <span id="totalWithdrawals">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Account Created</h3>
+                <span id="accountAge">Just now</span>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
