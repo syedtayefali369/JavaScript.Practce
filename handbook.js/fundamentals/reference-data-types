@@ -1,0 +1,20 @@
+// 2. Reference Data Types
+// ------------------------
+
+// Object
+const person = {
+    name: "Alice",
+    age: 30,
+    isStudent: false
+};
+console.log("Object:", person);
+
+// Array
+const colors = ["red", "green", "blue"];
+console.log("Array:", colors);
+
+// Function
+function greet() {
+    return "Hello!";
+}
+console.log("Function:", greet);
