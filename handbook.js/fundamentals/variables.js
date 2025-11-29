@@ -51,6 +51,6 @@ const hoistedConst = "I'm not hoisted";
 
 // 4. Naming Conventions
 // ----------------------
-const userName = "john_doe"; // camelCase
+const userName = "Tayef"; // camelCase
 const MAX_USERS = 100; // UPPER_CASE for constants
 const isActive = true; // boolean prefix: is, has, can
