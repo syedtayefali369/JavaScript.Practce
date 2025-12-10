@@ -2,6 +2,7 @@
 // ------------------------
 
 // Object
+
 const person = {
     name: "Alice",
     age: 30,
@@ -18,3 +19,4 @@ function greet() {
     return "Hello!";
 }
 console.log("Function:", greet);
+
